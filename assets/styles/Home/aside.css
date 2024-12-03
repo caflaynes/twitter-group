@@ -2,33 +2,51 @@
    width: 390px;
    display: flex;
    flex-direction: column;
-   align-items: center;
+}
+
+.aside__content {
+   padding-top: 5px;
+   margin-left: 30px;
 }
 
 .aside__search-bar {
    width: 350px;
-   height: 100px;
+   height: 40px;
 }
 
 .aside__search-barWrapper {
    height: 100%;
    background-color: #202327;
-   margin-top: 5px;
    border-radius: 100vmax;
    display: flex;
+   align-items: center;
 }
 
 .aside__search-iconWrapper {
-   height: 100%;
+   height: 40px;
+   width: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
 }
 
 .aside__search-icon {
-   color: #71767b;
-   height: 14.55px;
-   width: 14.55px;
+   height: 16px;
+   width: 16px;
 }
 
 .aside__search-input {
+   caret-color: white;
+   border: none;
+   background: none;
+   font-family: 'TwitterChirp', sans-serif;
+   color: #202327;
+   font-size: 14px;
+   outline: none;
+   width: 100%;
+   height: 100%;
+   padding-inline: 5px;
 }
 /* 
 .aside__notification {
