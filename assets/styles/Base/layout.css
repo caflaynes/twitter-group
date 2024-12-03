@@ -1,0 +1,16 @@
+.page-wrapper {
+   display: flex;
+   height: 100dvh;
+}
+
+
+.main {
+   width: 600px;
+   max-width: 598px;
+   min-width: 598px;
+}
+
+.border-y {
+   width: 1px;
+   background-color: #2F3336;
+}

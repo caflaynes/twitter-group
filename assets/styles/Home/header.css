@@ -1,0 +1,210 @@
+.header__container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 267px;
+   height: 100%;
+   margin-left: 50px;
+}
+
+/* Header Layout */
+.header__layout {
+   display: flex;
+   flex-direction: column;
+}
+
+.header__layout-account {
+   display: flex;
+   flex-direction: column;
+   margin-block: 11px;
+}
+
+/* Logo Section */
+.header__logo {
+   display: flex;
+   align-items: center;
+
+   height: 51px;
+   padding-block: 6px;
+}
+
+.header__logo-link {
+   display: block;
+
+   width: 45px;
+}
+
+.header__logo-background {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   width: 45px;
+   height: 45px;
+   border-radius: 100vmax;
+
+   transition: background-color 0.2s ease;
+}
+
+.header__logo-link:hover .header__logo-background {
+   background-color: #181818;
+}
+
+.header__logo-image {
+   height: 28px;
+}
+
+/* Navbar */
+.header__navbar {
+   margin-top: 1px;
+}
+
+.header__navbar-link {
+   display: block;
+}
+
+.header__navbar-item {
+   display: inline-block;
+
+   height: 46.5px;
+   width: auto;
+   border-radius: 100vmax;
+
+   transition: background-color 0.2s ease;
+}
+
+.header__navbar-link:hover .header__navbar-item {
+   background-color: #181818;
+}
+
+.header__navbar-item-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   padding: 11px;
+}
+
+.header__navbar-icon {
+   width: 24.5px;
+   height: 24.5px;
+
+   color: #e7e9ea;
+}
+
+.header__navbar-label {
+   font-family: "TwitterChirp", sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+
+   margin: 0 14px 0 18px;
+
+   color: #e7e9ea;
+}
+
+/* Button Section */
+.header__button-container {
+   display: flex;
+   align-items: center;
+
+   height: 60px;
+   margin-top: 2px;
+}
+
+.header__button-post {
+   display: block;
+
+   width: 235px;
+   height: 47px;
+   border-radius: 100vmax;
+
+   background-color: #1d9bf0;
+   transition: background-color 0.3s ease;
+}
+
+.header__button-post:hover {
+   background-color: #1a8cd8;
+}
+
+.header__button-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   height: 100%;
+}
+
+.header__button-text {
+   font-family: "TwitterChirp", sans-serif;
+   font-size: 15px;
+   font-weight: 700;
+
+   color: white;
+}
+
+/* Account Menu */
+.header__accmenu {
+   height: 61px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header__accmenu-btn {
+   height: 61px;
+   width: 260px;
+   border-radius: 100vmax;
+   display: block;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+.header__accmenu-btn:hover {
+   background-color: #181818;
+   cursor: pointer;
+}
+
+.header__accmenu-userInfo-container {
+   display: flex;
+   gap: 11px;
+}
+
+.header__accmenu-avatar-container {
+   width: 36px;
+   height: 36px;
+   border-radius: 50%;
+
+   overflow: hidden;
+}
+
+.header__accmenu-user-avatar {
+   object-fit: cover;
+}
+
+.header__accmenu-userDetails-container {
+   display: flex;
+   flex-direction: column;
+   gap: 3px;
+
+   font-family: "TwitterChirp", sans-serif;
+   font-size: 14px;
+}
+
+.header__accmenu-userName {
+   font-weight: 700;
+
+   color: rgb(231, 233, 234);
+}
+
+.header__accmenu-userHandle {
+   font-weight: 400;
+
+   color: rgb(113, 118, 123);
+}
+
+.header__accmenu-switcher-icon {
+   width: 17.5px;
+   height: 17.5px;
+
+   color: white;
+}

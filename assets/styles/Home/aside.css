@@ -1,0 +1,146 @@
+.aside {
+   width: 390px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.aside__search-bar {
+   width: 350px;
+   height: 100px;
+}
+
+.aside__search-barWrapper {
+   height: 100%;
+   background-color: #202327;
+   margin-top: 5px;
+   border-radius: 100vmax;
+   display: flex;
+}
+
+.aside__search-iconWrapper {
+   height: 100%;
+}
+
+.aside__search-icon {
+   color: #71767b;
+   height: 14.55px;
+   width: 14.55px;
+}
+
+.aside__search-input {
+}
+/* 
+.aside__notification {
+   background: linear-gradient(135deg, #0e1621, #1b2838);
+   border-radius: 20px;
+   padding: 10px 15px;
+   margin-bottom: 15px;
+   color: white;
+}
+
+.aside__notification-title {
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 7px;
+}
+
+.aside__notification-text {
+   margin-bottom: 10px;
+   font-size: 15.5px;
+   line-height: 1.5;
+}
+
+.aside__notification-button {
+   background-color: white;
+   color: black;
+   border: none;
+   border-radius: 30px;
+   padding: 8px 15px;
+   cursor: pointer;
+}
+
+.aside__trending {
+   background-color: black;
+   border-radius: 12px;
+   padding: 16px;
+   margin-bottom: 15px;
+}
+
+.aside__trending-title {
+   font-size: 18px;
+   font-weight: bold;
+   margin-bottom: 16px;
+}
+
+.aside__trend {
+   margin-bottom: 12px;
+}
+
+.aside__trend-category,
+.aside__trend-title,
+.aside__trend-stats {
+   margin: 4px 0;
+}
+
+.aside__show-more {
+   text-align: center;
+   display: block;
+   font-size: 14px;
+   color: #1da1f2;
+}
+
+.aside__follow {
+   background-color: black;
+   border-radius: 12px;
+   padding: 16px;
+   margin-bottom: 15px;
+}
+
+.aside__follow-title {
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.aside__user {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 12px;
+}
+
+.aside__user-avatar {
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   margin-right: 10px;
+}
+
+.aside__user-name {
+   font-size: 14px;
+   font-weight: bold;
+}
+
+.aside__follow-button {
+   background-color: #1da1f2;
+   color: white;
+   border: none;
+   border-radius: 20px;
+   padding: 8px 16px;
+}
+
+.aside__footer {
+   text-align: center;
+}
+
+.aside__footer-link {
+   color: #71767b;
+   text-decoration: none;
+   margin: 0 5px;
+}
+
+.aside__footer-text {
+   margin-top: 10px;
+   font-size: 12px;
+   color: #71767b;
+} */
