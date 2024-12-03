@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+  }
+  
+  .left-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    max-width: 400px;
+    width: 90%;
+    background-color: #1d1d1d;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .login-box h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    background-color: #2a2a2a;
+    color: #ffffff;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .sign-up-google {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .sign-up-apple {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .create-account {
+    background-color: #1da1f2;
+    color: #ffffff;
+  }
+  
+  .sign-in {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .sign-in a {
+    color: #1da1f2;
+  }
+  .right-section .login-box {
+    margin-top: 2rem;
+  }
+  
+  .login-header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .login-header h2 {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+  
+  /* Header Styles */
+  .page-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .page-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .page-header h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Layout */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 10rem); /* Adjust height for the header */
+    width: 100%;
+  }
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-section img {
+    max-width: 70%;
+    height: auto;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .right-section h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Button Styles */
+  button {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 20px; /* Rounder buttons */
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .sign-up-google {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .sign-up-apple {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .create-account {
+    background-color: #1da1f2;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  /* Button Hover Effect */
+  button:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+  }
+  
+  /* Adjust button width for smaller buttons */
+  button {
+    max-width: 300px; /* Reduced width for better proportion */
+  }
+  
+  /* Terms and Privacy Policy Text */
+  .terms-text {
+    font-size: 0.6rem;
+    text-align: center;
+    color: #a0a0a0;
+    margin-top: 1rem;
+  }
+  
+  .terms-text a {
+    color: #1da1f2;
+    text-decoration: none;
+  }
+  
+  .terms-text a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sign-in Text */
+  .sign-in {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .sign-in a {
+    color: #1da1f2;
+  }
+  
+  
+  .sign-in {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .sign-in a {
+    color: #1da1f2;
+  }
+  /* Footer Styles */
+  .page-footer {
+    background-color: #000000;
+    color: #a0a0a0;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 5rem;
+    border-top: 1px solid #333333;
+  }
+  
+  .page-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .page-footer li {
+    font-size: 0.7rem;
+  }
+  
+  .page-footer a {
+    color: #a0a0a0;
+    text-decoration: none;
+  }
+  
+  .page-footer a:hover {
+    text-decoration: underline;
+  }
+  /* Copyright Section */
+  .footer-copyright {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    color: #666666;
+  }
+
+/* Sign-In Section */
+.sign-in {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #a0a0a0;
+  text-align: center;
+}
+
+.sign-in-button {
+  margin-top: 0.5rem;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.sign-in-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+  
